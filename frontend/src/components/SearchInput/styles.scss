@@ -1,0 +1,23 @@
+.search {
+  display: flex;
+  max-width: 350px;
+
+  &__logo {
+    width: 15%;
+    svg {
+      color: #b7b8ba;
+    }
+  }
+
+  &__input {
+    width: 85%;
+    font-size: 1.1rem;
+    border: 0;
+    color: #4e4e4e;
+
+    &::placeholder {
+      font-size: 1.1rem;
+      color: #bababa;
+    }
+  }
+}

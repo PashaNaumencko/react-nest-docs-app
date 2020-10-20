@@ -1,0 +1,14 @@
+.d {
+  &__flex {
+    display: flex;
+    &--justify-space-between {
+      justify-content: space-between;
+    }
+  }
+  &__block {
+    display: block;
+  }
+  &__none {
+    display: none;
+  }
+}

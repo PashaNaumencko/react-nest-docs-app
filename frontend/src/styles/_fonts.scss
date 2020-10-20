@@ -1,0 +1,19 @@
+$path: './fonts';
+
+@font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url("#{$path}/OpenSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("#{$path}/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("#{$path}/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("#{$path}/OpenSans-Light.ttf") format("truetype");
+}
